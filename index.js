@@ -13,18 +13,18 @@ let next = document.getElementById("next")
 let prev = document.getElementById("prev")
 trackIndex = 0
 tracks = [
-    "Marshmello-Anne-Marie-Friends-320.mp3",
-    "G-Eazy- -Kehlani-Good-Life-320.mp3",
-    "2Pac-To-Live-and-Die-In-L.A-320.mp3",
-    "Selena-Gomez-People-You-Know-320.mp3",
-    "King Avriel ft. A$AP Ferg- 20's 50's 100's.mp3"
+    "songs/Marshmello-Anne-Marie-Friends-320.mp3",
+    "songs/G-Eazy- -Kehlani-Good-Life-320.mp3",
+    "songs/2Pac-To-Live-and-Die-In-L.A-320.mp3",
+    "songs/Selena-Gomez-People-You-Know-320.mp3",
+    "songs/King Avriel ft. A$AP Ferg- 20's 50's 100's.mp3"
 ]
 thumbnails = [
-    "cover.jpg",
-    "cover2.jpg",
-    "cover3.jpg",
-    "cover4.jpg",
-    "cover5.jpg"
+    "img/cover.jpg",
+    "img/cover2.jpg",
+    "img/cover3.jpg",
+    "img/cover4.jpg",
+    "img/cover5.jpg"
 ]
 trackArtists = ["Marshmello & Anne Marie","G-Eazy & Kehlani","2Pac","Selena Gomez","King Avriel ft. A$AP Ferg"]
 trackTitles = ["Friends","Good life","To live and die in LA","People you know","20's 50's 100's"]
