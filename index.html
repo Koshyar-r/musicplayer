@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Music-player</title>
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/170a4ca11c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="outer-container">
+        <audio src="Marshmello-Anne-Marie-Friends-320.mp3" id="track"></audio>
+    </div>
+
+    <div class="music-player">
+        <div class="music-top-icon">
+            <div class="arrow-left">
+                <i class="fa fa-arrow-left"></i>
+            </div>
+            <p>Playing Now</p>
+            <div class="music-bar">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+
+        <div class="music-album-photo">
+            <img id="thumbnail" src="cover.jpg" alt="">
+        </div>
+
+        <div class="music-detail">
+            <h2 id="track-title">Friends</h2>
+            <p id="track-artist">Marshmello & Anne Marie</p>
+        </div>
+
+        <div id="play-timline">
+            <input type="range" min="0" max="" value="0" id="progressBar">
+        </div>
+
+        <div class="track-time">
+            <div id="currentTime"></div>
+            <div id="durationTime"></div>
+        </div>
+        
+        <div class="music-changer">
+            <i class="fa fa-backward fa-2x" id="prev"></i>
+            <i class="fas fa-pause fa-2x" id="pause"></i>
+            <i class="fas fa-play fa-2x" id="play"></i>
+            <i class="fa fa-forward fa-2x" id="next"></i>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
