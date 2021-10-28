@@ -1,3 +1,5 @@
 # Musicplayer
 
-working musicplayer using html,css and js.
+Working musicplayer using HTML,CSS and JS.
+
+Play,pause or reject music.
